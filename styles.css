@@ -1,0 +1,62 @@
+body {
+    background-image: url('https://images.pexels.com/photos/1202839/pexels-photo-1202839.jpeg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    margin:0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+.logincard {
+    font-family: sans-serif ;
+    background-color: #0b0b0b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-width: 300px;
+    min-height: 300px;
+    width: 58px;
+    flex-direction: column;
+    box-shadow: -5px 10px 15px hsl(162, 59%, 43%);
+    border-radius: 10%;
+}
+
+h4{
+    color: #2e4d5ff5;
+    background-color:#97c7e2f5 ;
+    font-weight: lighter;
+}
+button{
+    margin-top: 20px;
+    background-color:#10654df5 ;
+    min-width: 100px;
+    min-height: 30px;
+    border-radius: 20px;
+   
+}
+h1{
+    color: #13614bf5;
+}
+input{
+    border-radius: 5px;
+    background-color: aquamarine;
+}
+.username{
+   margin-bottom: 10px; 
+}
+
+label{  
+    font-size: smaller;
+    color:hsl(162, 59%, 43%)
+}
+.checkbox{
+    display: flex;
+    align-items: column;
+}
